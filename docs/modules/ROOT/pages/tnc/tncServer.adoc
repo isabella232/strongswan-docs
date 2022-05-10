@@ -190,9 +190,6 @@ the credentials, the connection configurations and the pool definitions.
 00[DMN] pools: loaded pool 'rw_pool'
 00[DMN] pools: successfully loaded 1 pools, 0 unloaded
 ----
-
-== TNC-Enabled VPN Server Configuration
-
 The TNC-enabled VPN server configuration is based on the following
 xref:swanctl/swanctlConf.adoc[`*swanctl.conf*`] file
 ----

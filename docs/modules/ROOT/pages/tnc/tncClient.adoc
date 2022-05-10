@@ -80,7 +80,7 @@ IMC "Scanner"        /usr/lib/ipsec/imcvs/imc-scanner.so
 # IMC "SWIMA"        /usr/lib/ipsec/imcvs/imc-swima.so
 # IMC "Attestation"  /usr/lib/ipsec/imcvs/imc-attestation.so
 ----
-In the configuration file above, the `*OS IMC*` and the `*Scanner IMV*` are enabled, so
+In the configuration file above, the `*OS IMC*` and the `*Scanner IMC*` are enabled, so
 that these Integrity Measurement Collectors have to be built beforehand with the
 xref:install/autoconf.adoc[`*./configure*`] options
 
@@ -135,9 +135,6 @@ the credentials and the connection configurations.
 00[DMN] conns: loaded connection 'tnc'
 00[DMN] conns: successfully loaded 1 connections, 0 unloaded
 ----
-
-== TNC-Enabled VPN Client Configuration
-
 The TNC-enabled VPN client configuration is based on the following
 xref:swanctl/swanctlConf.adoc[`*swanctl.conf*`] file
 ----
